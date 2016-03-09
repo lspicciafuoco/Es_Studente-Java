@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="EsStudente">
+  <ClassDiagramComponents>
+    <Class name="Main" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Studente" package="" visibility="public" xPosition="252.0" yPosition="20.0">
+      <Fields>
+        <Field name="nome" type="String" visibility="private"/>
+        <Field name="cognome" type="String" visibility="private"/>
+        <Field name="matricola" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nome"/>
+          <Argument type="String" name="cognome"/>
+          <Argument type="int" name="matricola"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNome" returnType="String" visibility="public">
+          <Argument type="String" name="nome"/>
+        </Method>
+        <Method name="getCognome" returnType="String" visibility="public">
+          <Argument type="String" name="cognome"/>
+        </Method>
+        <Method name="getMatricola" returnType="int" visibility="public">
+          <Argument type="int" name="matricola"/>
+        </Method>
+        <Method name="setCognome" returnType="void" visibility="public"/>
+        <Method name="setMatricola" returnType="void" visibility="public"/>
+        <Method name="stampaStudente" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Voti" package="" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="italiano" type="int" visibility="private"/>
+        <Field name="matematica" type="int" visibility="private"/>
+        <Field name="inglese" type="int" visibility="private"/>
+        <Field name="storia" type="int" visibility="private"/>
+        <Field name="informatica" type="int" visibility="private"/>
+        <Field name="N" type="int" visibility="private"/>
+        <Field name="Voti" type="int[]" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="italiano"/>
+          <Argument type="int" name="matematica"/>
+          <Argument type="int" name="inglese"/>
+          <Argument type="int" name="storia"/>
+          <Argument type="int" name="informatica"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getItaliano" returnType="int" visibility="public">
+          <Argument type="int" name="italiano"/>
+        </Method>
+        <Method name="getMatematica" returnType="int" visibility="public">
+          <Argument type="int" name="matematica"/>
+        </Method>
+        <Method name="getInglese" returnType="int" visibility="public">
+          <Argument type="int" name="inglese"/>
+        </Method>
+        <Method name="getStoria" returnType="int" visibility="public">
+          <Argument type="int" name="storia"/>
+        </Method>
+        <Method name="getInformatica" returnType="int" visibility="public">
+          <Argument type="int" name="informatica"/>
+        </Method>
+        <Method name="setItaliano" returnType="void" visibility="public"/>
+        <Method name="setMatematica" returnType="void" visibility="public"/>
+        <Method name="setInglese" returnType="void" visibility="public"/>
+        <Method name="setStoria" returnType="void" visibility="public"/>
+        <Method name="setInformatica" returnType="void" visibility="public"/>
+        <Method name="memorizzaVoti" returnType="void" visibility="public">
+          <Argument type="int" name="Voti"/>
+        </Method>
+        <Method name="memorizzaVoti2" returnType="void" visibility="public">
+          <Argument type="int" name="Voti"/>
+        </Method>
+        <Method name="memorizzaVoti3" returnType="void" visibility="public">
+          <Argument type="int" name="Voti"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
